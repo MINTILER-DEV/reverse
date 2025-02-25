@@ -1,5 +1,5 @@
 const CACHE_NAME = 'reverse-proxy-cache-v1';
-const TARGET_URL = 'https://www.youtube.com'; // Replace with the site you want to unblock
+const TARGET_URL = 'https://www.google.com'; // Replace with the site you want to unblock
 
 self.addEventListener('fetch', (event) => {
   event.respondWith(
